@@ -1,4 +1,4 @@
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@react-awesome-query-builder-dev/ui";
 import PropTypes from "prop-types";
 import React, { PureComponent } from "react";
 import { DatePicker } from "antd";

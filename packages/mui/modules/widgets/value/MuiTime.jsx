@@ -1,7 +1,7 @@
 import React from "react";
 import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@react-awesome-query-builder-dev/ui";
 import { TimePicker } from "@mui/x-date-pickers/TimePicker";
 import xdpPackage from "@mui/x-date-pickers/package.json"; // to determine version
 const { dayjs } = Utils;

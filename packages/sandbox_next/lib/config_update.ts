@@ -1,4 +1,4 @@
-import type { Config } from "@react-awesome-query-builder/core";
+import type { Config } from "@react-awesome-query-builder-dev/core";
 import merge from "lodash/merge";
 
 function randomColor() {

@@ -1,4 +1,4 @@
-import type { Dayjs } from "@react-awesome-query-builder/ui";
+import type { Dayjs } from "@react-awesome-query-builder-dev/ui";
 import dayjsGenerateConfig from "rc-picker/lib/generate/dayjs";
 
 type GenerateConfig = typeof dayjsGenerateConfig & {

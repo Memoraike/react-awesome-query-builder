@@ -1,7 +1,7 @@
 import React, { FC, memo, useCallback, useMemo } from "react";
 import Creatable from "react-select/creatable";
 import { MultiValue } from "react-select";
-import { SpelConcatPart, ListItem } from "@react-awesome-query-builder/ui";
+import { SpelConcatPart, ListItem } from "@react-awesome-query-builder-dev/ui";
 
 interface OptionItem {
   id: string

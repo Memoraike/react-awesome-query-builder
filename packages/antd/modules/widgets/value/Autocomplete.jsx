@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from "react";
 import { Select, Divider, Tooltip } from "antd";
 import { calcTextWidth, SELECT_WIDTH_OFFSET_RIGHT } from "../../utils/domUtils";
-import { Hooks , Utils } from "@react-awesome-query-builder/ui";
+import { Hooks , Utils } from "@react-awesome-query-builder-dev/ui";
 const { fixListValuesGroupOrder } = Utils.Autocomplete;
 const { makeCustomListValue } = Utils.ListUtils;
 const { useListValuesAutocomplete } = Hooks;

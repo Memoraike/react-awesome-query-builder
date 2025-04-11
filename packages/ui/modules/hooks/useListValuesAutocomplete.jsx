@@ -1,5 +1,5 @@
 import React from "react";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@react-awesome-query-builder-dev/core";
 import debounce from "lodash/debounce";
 const { mergeListValues, listValueToOption, optionToListValue, optionsToListValues, fixListValuesGroupOrder } = Utils.Autocomplete;
 const { mapListValues, listValuesToArray, getListValue, makeCustomListValue, searchListValue, getItemInListValues } = Utils.ListUtils;

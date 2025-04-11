@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import { DatePicker } from "antd";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@react-awesome-query-builder-dev/ui";
 const { dayjs } = Utils;
 
 

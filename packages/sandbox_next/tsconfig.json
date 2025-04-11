@@ -26,16 +26,16 @@
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@react-awesome-query-builder/core": [
+      "@react-awesome-query-builder-dev/core": [
         "../core/modules"
       ],
-      "@react-awesome-query-builder/sql": [
+      "@react-awesome-query-builder-dev/sql": [
         "../sql/modules"
       ],
-      "@react-awesome-query-builder/ui": [
+      "@react-awesome-query-builder-dev/ui": [
         "../ui/modules"
       ],
-      "@react-awesome-query-builder/mui": [
+      "@react-awesome-query-builder-dev/mui": [
         "../mui/modules"
       ],
       "react": [

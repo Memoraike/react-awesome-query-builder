@@ -63,10 +63,10 @@ import {
   ConfigMixin as _ConfigMixin,
   ConfigMixinExt as _ConfigMixinExt,
   ImmutableItem,
-} from "@react-awesome-query-builder/core";
+} from "@react-awesome-query-builder-dev/core";
 
 // re-export
-export * from "@react-awesome-query-builder/core";
+export * from "@react-awesome-query-builder-dev/core";
 
 /////////////////
 // override <C> in types

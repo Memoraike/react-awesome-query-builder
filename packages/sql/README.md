@@ -1,6 +1,6 @@
-# @react-awesome-query-builder/sql
+# @react-awesome-query-builder-dev/sql
 
-[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder/sql.svg)](https://www.npmjs.com/package/@react-awesome-query-builder/sql)
+[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder-dev/sql.svg)](https://www.npmjs.com/package/@react-awesome-query-builder-dev/sql)
 
 This packages provides import from SQL using [node-sql-parser](https://www.npmjs.com/package/node-sql-parser)
 
@@ -9,14 +9,14 @@ This packages provides import from SQL using [node-sql-parser](https://www.npmjs
 Install:
 
 ```sh
-npm i @react-awesome-query-builder/sql --save
+npm i @react-awesome-query-builder-dev/sql --save
 ```
 
 ## Usage
 
 ```js
-import { Utils } from '@react-awesome-query-builder/core';
-import { SqlUtils } from "@react-awesome-query-builder/sql";
+import { Utils } from '@react-awesome-query-builder-dev/core';
+import { SqlUtils } from "@react-awesome-query-builder-dev/sql";
 
 const importFromSql = (sqlStr) => {
   const {tree, errors: sqlErrors, warnings: sqlWarnings} = SqlUtils.loadFromSql(sqlStr, state.config);

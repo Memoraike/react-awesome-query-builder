@@ -1,4 +1,4 @@
-# @react-awesome-query-builder/tests
+# @react-awesome-query-builder-dev/tests
 
 Karma + Mocha + Chai tests.
 
@@ -125,7 +125,7 @@ Note that `await pauseTest();` works ONLY on Karma debug page.
 ### Test example
 
 ```js
-import { Utils, ImmutableTree } from "@react-awesome-query-builder/core";
+import { Utils, ImmutableTree } from "@react-awesome-query-builder-dev/core";
 import * as configs from "../support/configs";
 import * as inits from "../support/inits";
 import { with_qb } from "../support/utils";

@@ -3,7 +3,7 @@ import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import xdpPackage from "@mui/x-date-pickers/package.json"; // to determine version
 import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@react-awesome-query-builder-dev/ui";
 const { dayjs } = Utils;
 const xdpVersion = parseInt(xdpPackage?.version?.split(".")?.[0] ?? "0");
 

@@ -4,7 +4,7 @@ import {
   BasicFuncs, CoreConfig,
   // types:
   Settings, Operators, Widgets, Fields, Config, Types, Conjunctions, LocaleSettings, Funcs, OperatorProximity, Func, SerializedFunction,
-} from "@react-awesome-query-builder/core";
+} from "@react-awesome-query-builder-dev/core";
 
 // Create a config for demo app based on CoreConfig - add fields, funcs, some overrides.
 // Additional UI modifications are done in `./config` (like `asyncFetch`, `marks`, `factory`)

@@ -3,7 +3,7 @@ import {
   Query, Builder, Utils, 
   //types:
   BuilderProps, ImmutableTree, Config, ActionMeta, Actions
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 import throttle from "lodash/throttle";
 import ImportSkinStyles from "../skins";
 import loadConfig from "./config";

@@ -1,4 +1,4 @@
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@react-awesome-query-builder-dev/core";
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Item } from "./item/Item";

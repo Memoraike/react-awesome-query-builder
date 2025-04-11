@@ -1,6 +1,6 @@
 import {
   Utils
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 
 // Add translations
 Utils.i18n.addResources("en", "custom", {

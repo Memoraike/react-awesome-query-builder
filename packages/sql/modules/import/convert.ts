@@ -9,7 +9,7 @@ import {
   FuncValue,
   Field,
   JsonRuleGroup,
-} from "@react-awesome-query-builder/core";
+} from "@react-awesome-query-builder-dev/core";
 import { getLogicDescr } from "./ast";
 import { SqlPrimitiveTypes } from "./conv";
 import { ValueExpr } from "node-sql-parser";

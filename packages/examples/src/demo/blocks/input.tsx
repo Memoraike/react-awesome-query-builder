@@ -1,8 +1,8 @@
 import React, { Dispatch, SetStateAction } from "react";
 import {
   Utils,
-} from "@react-awesome-query-builder/ui";
-import { SqlUtils } from "@react-awesome-query-builder/sql";
+} from "@react-awesome-query-builder-dev/ui";
+import { SqlUtils } from "@react-awesome-query-builder-dev/sql";
 import type { DemoQueryBuilderState } from "../types";
 import { validationTranslateOptions } from "../options";
 

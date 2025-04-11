@@ -1,4 +1,4 @@
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@react-awesome-query-builder-dev/core";
 const { applyJsonLogic } = Utils.ConfigUtils;
 import { expect } from "chai";
 

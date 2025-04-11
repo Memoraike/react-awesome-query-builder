@@ -16,18 +16,18 @@ import {
   Query, Builder, BasicConfig, Config,
   BuilderProps, ValidationItemErrors, SanitizeOptions,
   ActionMeta, OnInit, OnChange,
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 const {
   uuid, 
   sanitizeTree, loadTree, _loadFromJsonLogic, loadFromSpel, isJsonLogic, elasticSearchFormat,
   queryString, sqlFormat, _sqlFormat, spelFormat, _spelFormat, mongodbFormat, _mongodbFormat, jsonLogicFormat, queryBuilderFormat, getTree, ConfigUtils
 } = Utils;
-import { AntdConfig } from "@react-awesome-query-builder/antd";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
-import { BootstrapConfig } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIConfig } from "@react-awesome-query-builder/fluent";
-import { SqlUtils } from "@react-awesome-query-builder/sql";
+import { AntdConfig } from "@react-awesome-query-builder-dev/antd";
+import { MuiConfig } from "@react-awesome-query-builder-dev/mui";
+import { MaterialConfig } from "@react-awesome-query-builder-dev/material";
+import { BootstrapConfig } from "@react-awesome-query-builder-dev/bootstrap";
+import { FluentUIConfig } from "@react-awesome-query-builder-dev/fluent";
+import { SqlUtils } from "@react-awesome-query-builder-dev/sql";
 
 
 let currentTestName: string;

@@ -1,2 +1,2 @@
-import { TreeStore } from "@react-awesome-query-builder/core";
+import { TreeStore } from "@react-awesome-query-builder-dev/core";
 export default TreeStore;

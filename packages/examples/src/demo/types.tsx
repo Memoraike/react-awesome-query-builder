@@ -1,6 +1,6 @@
 import {
   ImmutableTree, Config, Actions
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 
 
 export interface DemoQueryBuilderState {

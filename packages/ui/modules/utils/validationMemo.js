@@ -1,5 +1,5 @@
 import {immutableEqual} from "./stuff";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@react-awesome-query-builder-dev/core";
 const { validateAndFixTree } = Utils.Validation;
 
 export const createValidationMemo = () => {

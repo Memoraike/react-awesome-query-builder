@@ -1,10 +1,10 @@
 import React from "react";
-import { AntdConfig, AntdWidgets } from "@react-awesome-query-builder/antd";
-import { MuiWidgets } from "@react-awesome-query-builder/mui";
-import { MaterialWidgets } from "@react-awesome-query-builder/material";
-import { BootstrapWidgets } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIWidgets } from "@react-awesome-query-builder/fluent";
-import { BasicFuncs, Utils } from "@react-awesome-query-builder/core";
+import { AntdConfig, AntdWidgets } from "@react-awesome-query-builder-dev/antd";
+import { MuiWidgets } from "@react-awesome-query-builder-dev/mui";
+import { MaterialWidgets } from "@react-awesome-query-builder-dev/material";
+import { BootstrapWidgets } from "@react-awesome-query-builder-dev/bootstrap";
+import { FluentUIWidgets } from "@react-awesome-query-builder-dev/fluent";
+import { BasicFuncs, Utils } from "@react-awesome-query-builder-dev/core";
 import { simulatedAsyncFetch } from "./autocomplete";
 import sinon from "sinon";
 import merge from "lodash/merge";

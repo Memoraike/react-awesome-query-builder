@@ -7,7 +7,7 @@ import {
   SqlDialect,
   SqlImportFunc, Utils,
   Widget
-} from "@react-awesome-query-builder/core";
+} from "@react-awesome-query-builder-dev/core";
 import type { Conv, Meta, OutLogic } from "./types";
 
 const logger = Utils.OtherUtils.logger;

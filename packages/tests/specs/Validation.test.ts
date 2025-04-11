@@ -1,5 +1,5 @@
 /*eslint @typescript-eslint/require-await: ["off"]*/
-import { Utils, ImmutableTree, JsonGroup, JsonTree, RuleProperties } from "@react-awesome-query-builder/core";
+import { Utils, ImmutableTree, JsonGroup, JsonTree, RuleProperties } from "@react-awesome-query-builder-dev/core";
 import TextField from "@mui/material/TextField";
 const { isValidTree, validateTree, sanitizeTree, checkTree, getTree } = Utils;
 import * as configs from "../support/configs";

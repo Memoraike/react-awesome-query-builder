@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Config, BasicConfig,
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 
 const ImportUi = React.lazy(() => import("./ui"));
 const ImportAntd = React.lazy(() => import("./antd"));
@@ -10,11 +10,11 @@ const ImportMaterial = React.lazy(() => import("./material"));
 const ImportBootstrap = React.lazy(() => import("./bootstrap"));
 const ImportFluent = React.lazy(() => import("./fluent"));
 
-import { AntdConfig } from "@react-awesome-query-builder/antd";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
-import { BootstrapConfig } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIConfig } from "@react-awesome-query-builder/fluent";
+import { AntdConfig } from "@react-awesome-query-builder-dev/antd";
+import { MuiConfig } from "@react-awesome-query-builder-dev/mui";
+import { MaterialConfig } from "@react-awesome-query-builder-dev/material";
+import { BootstrapConfig } from "@react-awesome-query-builder-dev/bootstrap";
+import { FluentUIConfig } from "@react-awesome-query-builder-dev/fluent";
 
 const skinToImport: Record<string, React.LazyExoticComponent<React.ComponentType<any>>> = {
   vanilla: ImportUi,

@@ -1,6 +1,6 @@
 import React from "react";
 import MaterialWidgets from "../widgets";
-import { BasicConfig, Utils } from "@react-awesome-query-builder/ui";
+import { BasicConfig, Utils } from "@react-awesome-query-builder-dev/ui";
 
 
 const settings = {

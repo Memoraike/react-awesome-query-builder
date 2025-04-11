@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction } from "react";
 import {
   ImmutableTree,
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 import type { DemoQueryBuilderState } from "../types";
 import { importFromInitFile } from "../utils";
 import { initFiles } from "../init_data";

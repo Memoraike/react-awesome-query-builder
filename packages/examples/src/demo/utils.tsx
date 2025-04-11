@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import {
   Utils,
   ImmutableTree, Config, JsonTree, JsonLogicTree, SanitizeOptions, Actions
-} from "@react-awesome-query-builder/ui";
-import { SqlUtils } from "@react-awesome-query-builder/sql";
+} from "@react-awesome-query-builder-dev/ui";
+import { SqlUtils } from "@react-awesome-query-builder-dev/sql";
 import { initFiles } from "./init_data";
 
 

@@ -19,7 +19,7 @@
     "skipLibCheck": false,
     
     "paths": {
-      "@react-awesome-query-builder/core": ["../core/modules"],
+      "@react-awesome-query-builder-dev/core": ["../core/modules"],
     }
   },
   "include": [

@@ -1,7 +1,7 @@
 import React from "react";
 import type {
   Config, FieldOrGroup, Operator, Settings, Widget, ConfigMixin, PartialPartial, SerializedFunction,
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 import merge from "lodash/merge";
 import pureServerConfig from "./config_base";
 

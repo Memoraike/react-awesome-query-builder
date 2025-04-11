@@ -4,7 +4,7 @@ import {
   Utils, Query, Builder,
   //types:
   BuilderProps, ImmutableTree, Config, JsonTree, JsonLogicTree
-} from "@react-awesome-query-builder/mui";
+} from "@react-awesome-query-builder-dev/mui";
 import throttle from "lodash/throttle";
 import loadedConfigMui from "./config_mui";
 import loadedConfigAntd from "./config_antd";

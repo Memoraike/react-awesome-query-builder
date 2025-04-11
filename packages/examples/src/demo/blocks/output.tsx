@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Utils
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 import type { DemoQueryBuilderState } from "../types";
 
 const stringify = JSON.stringify;

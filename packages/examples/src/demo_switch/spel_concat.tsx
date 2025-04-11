@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Utils as QbUtils, BasicConfig, CaseValueWidget, SpelConcatPart, WidgetProps, SelectFieldSettings, ListItem,
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 import ReactSelect from "./select";
 
 /**

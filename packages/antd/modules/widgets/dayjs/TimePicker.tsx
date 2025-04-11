@@ -1,4 +1,4 @@
-import type { Dayjs } from "@react-awesome-query-builder/ui";
+import type { Dayjs } from "@react-awesome-query-builder-dev/ui";
 import { DatePicker } from "antd";
 import type { PickerProps } from "antd/es/date-picker/generatePicker";
 import * as React from "react";

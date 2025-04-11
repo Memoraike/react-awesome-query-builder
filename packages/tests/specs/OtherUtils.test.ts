@@ -1,4 +1,4 @@
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@react-awesome-query-builder-dev/ui";
 import { expect } from "chai";
 // warning: don't put `export_checks` inside `it`
 import deepEqualInAnyOrder from "deep-equal-in-any-order";

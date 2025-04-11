@@ -1,6 +1,6 @@
 import React from "react";
 import { DatePicker } from "@fluentui/react";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@react-awesome-query-builder-dev/ui";
 const { dayjs } = Utils;
 
 export default (props) => {

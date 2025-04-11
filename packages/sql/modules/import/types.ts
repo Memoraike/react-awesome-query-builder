@@ -1,4 +1,4 @@
-import { Func, FuncValue, RuleValue, SimpleValue, SqlImportFunc, ValueSource } from "@react-awesome-query-builder/core";
+import { Func, FuncValue, RuleValue, SimpleValue, SqlImportFunc, ValueSource } from "@react-awesome-query-builder-dev/core";
 import type {
   ExpressionValue, ExprList, LocationRange, ValueExpr,
 } from "node-sql-parser";

@@ -2,7 +2,7 @@
 
 import {
   Utils, Config, JsonTree, ImmutableTree,
-} from "@react-awesome-query-builder/core";
+} from "@react-awesome-query-builder-dev/core";
 import {
   Parser as NodeSqlParser, Option as SqlParseOption, AST,
 } from "node-sql-parser";

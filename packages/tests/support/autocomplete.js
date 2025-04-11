@@ -1,5 +1,5 @@
 
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@react-awesome-query-builder-dev/core";
 const { simulateAsyncFetch } = Utils.Autocomplete;
 import { expect } from "chai";
 import MuiAutocomplete from "@mui/material/Autocomplete";

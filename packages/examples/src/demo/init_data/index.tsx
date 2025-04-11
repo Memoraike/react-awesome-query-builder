@@ -10,7 +10,7 @@ import initLogicGroupSomeInLike from "./logic/with_group_some_in_like";
 
 import {
   Utils, JsonTree,
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 const { uuid } = Utils;
 
 export const emptyTree: JsonTree = {id: uuid(), type: "group"};

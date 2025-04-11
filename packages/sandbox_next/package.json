@@ -1,7 +1,7 @@
 {
-  "name": "@react-awesome-query-builder/sandbox-next",
+  "name": "@react-awesome-query-builder-dev/sandbox-next",
   "version": "6.6.14",
-  "description": "Demo for @react-awesome-query-builder",
+  "description": "Demo for @react-awesome-query-builder-dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/ukrbublik/react-awesome-query-builder.git",
@@ -41,9 +41,9 @@
     "@mui/material": "^6.3.1",
     "@mui/system": "^6.3.1",
     "@mui/x-date-pickers": "^7.23.6",
-    "@react-awesome-query-builder/core": "workspace:^",
-    "@react-awesome-query-builder/mui": "workspace:^",
-    "@react-awesome-query-builder/sql": "workspace:^",
+    "@react-awesome-query-builder-dev/core": "workspace:^",
+    "@react-awesome-query-builder-dev/mui": "workspace:^",
+    "@react-awesome-query-builder-dev/sql": "workspace:^",
     "@upstash/redis": "^1.31.1",
     "iron-session": "^6.3.1",
     "jsonfile": "^6.1.0",

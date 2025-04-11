@@ -1,5 +1,5 @@
 import React, { useMemo, memo } from "react";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@react-awesome-query-builder-dev/core";
 import omit from "lodash/omit";
 const { getTitleInListValues } = Utils.ListUtils;
 const { _widgetDefKeysToOmit } = Utils.ConfigUtils;

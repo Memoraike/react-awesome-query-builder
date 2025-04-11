@@ -47,21 +47,21 @@ let plugins = [
 ];
 
 let aliases = isMono ? {
-    '@react-awesome-query-builder/ui/css': UI_CSS,
-    '@react-awesome-query-builder/antd/css': ANTD_CSS,
-    '@react-awesome-query-builder/mui/css': MUI_CSS,
-    '@react-awesome-query-builder/material/css': MATERIAL_CSS,
-    '@react-awesome-query-builder/bootstrap/css': BOOTSTRAP_CSS,
-    '@react-awesome-query-builder/fluent/css': FLUENT_CSS,
+    '@react-awesome-query-builder-dev/ui/css': UI_CSS,
+    '@react-awesome-query-builder-dev/antd/css': ANTD_CSS,
+    '@react-awesome-query-builder-dev/mui/css': MUI_CSS,
+    '@react-awesome-query-builder-dev/material/css': MATERIAL_CSS,
+    '@react-awesome-query-builder-dev/bootstrap/css': BOOTSTRAP_CSS,
+    '@react-awesome-query-builder-dev/fluent/css': FLUENT_CSS,
     
-    '@react-awesome-query-builder/core': CORE_MODULES,
-    '@react-awesome-query-builder/ui': UI_MODULES,
-    '@react-awesome-query-builder/antd': ANTD_MODULES,
-    '@react-awesome-query-builder/mui': MUI_MODULES,
-    '@react-awesome-query-builder/material': MATERIAL_MODULES,
-    '@react-awesome-query-builder/bootstrap': BOOTSTRAP_MODULES,
-    '@react-awesome-query-builder/fluent': FLUENT_MODULES,
-    '@react-awesome-query-builder/sql': SQL_MODULES,
+    '@react-awesome-query-builder-dev/core': CORE_MODULES,
+    '@react-awesome-query-builder-dev/ui': UI_MODULES,
+    '@react-awesome-query-builder-dev/antd': ANTD_MODULES,
+    '@react-awesome-query-builder-dev/mui': MUI_MODULES,
+    '@react-awesome-query-builder-dev/material': MATERIAL_MODULES,
+    '@react-awesome-query-builder-dev/bootstrap': BOOTSTRAP_MODULES,
+    '@react-awesome-query-builder-dev/fluent': FLUENT_MODULES,
+    '@react-awesome-query-builder-dev/sql': SQL_MODULES,
 
 
     'react': path.resolve(NODE_MODULES, 'react'),
@@ -76,7 +76,7 @@ const lazy_style_loaders = [
     loader: "style-loader", 
     options: {
         injectType: (
-            name && name.startsWith('@react-awesome-query-builder') || name === 'antd' || name === 'bootstrap' ?  
+            name && name.startsWith('@react-awesome-query-builder-dev') || name === 'antd' || name === 'bootstrap' ?  
             "lazyStyleTag" : "styleTag"
         )
     }

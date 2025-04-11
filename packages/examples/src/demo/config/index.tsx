@@ -13,11 +13,11 @@ import {
   TreeSelectWidget,
   Config,
   ValidateValue,
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 import ru_RU from "antd/es/locale/ru_RU";
 import { ruRU } from "@material-ui/core/locale";
 import { ruRU as muiRuRU } from "@mui/material/locale";
-import { AntdWidgets } from "@react-awesome-query-builder/antd";
+import { AntdWidgets } from "@react-awesome-query-builder-dev/antd";
 import { skinToConfig } from "../../skins";
 
 const { dayjs } = Utils;

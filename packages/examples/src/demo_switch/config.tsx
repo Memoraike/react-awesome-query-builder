@@ -1,8 +1,8 @@
 import React from "react";
 import {
   BasicFuncs, Widgets, Fields, Config, Settings, Funcs,
-} from "@react-awesome-query-builder/ui";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
+} from "@react-awesome-query-builder-dev/ui";
+import { MuiConfig } from "@react-awesome-query-builder-dev/mui";
 import { getCaseValueWidgetConfig } from "./spel_concat";
 import InputAdornment from "@mui/material/InputAdornment";
 

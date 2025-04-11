@@ -10,7 +10,7 @@ import Check from "@mui/icons-material/Check";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Tooltip from "@mui/material/Tooltip";
-import { Hooks } from "@react-awesome-query-builder/ui";
+import { Hooks } from "@react-awesome-query-builder-dev/ui";
 import { useTheme } from "@mui/material/styles";
 const { useListValuesAutocomplete } = Hooks;
 const emptyArray = [];

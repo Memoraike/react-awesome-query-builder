@@ -1,6 +1,6 @@
 import {
   SanitizeOptions
-} from "@react-awesome-query-builder/ui";
+} from "@react-awesome-query-builder-dev/ui";
 import { DemoQueryBuilderState } from "./types";
 
 export const defaultInitFile = "tree/complex";

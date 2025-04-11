@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo } from "react";
 import { Dropdown } from "@fluentui/react";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@react-awesome-query-builder-dev/ui";
 import SearchableDropdown from "../SearchableDropdown";
 const { mapListValues } = Utils.ListUtils;
 

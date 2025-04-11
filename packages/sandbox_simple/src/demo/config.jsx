@@ -1,6 +1,6 @@
 import React from "react";
 import merge from "lodash/merge";
-import { BasicConfig } from "@react-awesome-query-builder/ui";
+import { BasicConfig } from "@react-awesome-query-builder-dev/ui";
 const InitialConfig = BasicConfig;
 
 
