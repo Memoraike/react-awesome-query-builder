@@ -70,5 +70,8 @@
     "typescript": "~5.4.5",
     "webpack": "^5.98.0"
   },
-  "readme": "README.md"
+  "readme": "README.md",
+  "publishConfig": {
+    "access": "public"
+  }
 }
